@@ -1,6 +1,5 @@
 from random import *
-    nb = randint(0,100)
-    if nb<50:
-        print("Pile !")
-    else:
-        print("Face !")
+if randint(0,100):
+    print("Pile !")
+else:
+    print("Face !")
