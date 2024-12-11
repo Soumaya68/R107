@@ -27,3 +27,13 @@ print(f"Le nombre de valeurs supérieur ou égale à 10 et inférieur strictemen
 print("Le nombre de valeurs supérieur ou égale à 15 est", entre)
 
 
+
+
+
+
+while True:
+    x = int(input("Donner un nombre entier supérieur à 1 : "))
+    if x > 1 :
+        break
+    print("Attention il faut que votre valeur soit supérieur à 1 ")
+
