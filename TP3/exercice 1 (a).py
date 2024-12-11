@@ -1,7 +1,7 @@
 n = int(input("Entrée une valeur : "))
-val = 0
+somme = 0
 
 for i in range(n + 1):
-    val += i
+    somme += i
     print(i)
-print(val)
+print("La somme est", somme)
