@@ -10,8 +10,7 @@ for i in range(10):
         if 0 <= x <= 20 :
             break
         print("Attention il faut que votre valeur soit comprise entre 0 et 20")
-<<<<<<< HEAD
-=======
+
     if x < 10 :
         inf = inf +1
         #inf +=1
