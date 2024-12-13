@@ -1,4 +1,6 @@
-N = 0
+x = 0
+somme = 0
+i = 0
 
 while True:
     x = int(input("Donner un nombre entier supérieur à 1 : "))
@@ -7,7 +9,8 @@ while True:
     print("Attention il faut que votre valeur soit supérieur à 1 ")
 
 
-for i in range(N  1):
-    N += i
-    print(i)
-print("La somme est", N )
+while somme + i <= x:
+    somme += i
+    i += 1
+
+print(f"Le plus grand nombre N est {i - 1}")
