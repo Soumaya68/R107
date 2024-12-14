@@ -1,8 +1,5 @@
-while True:
-    if x = int(input(x))
+x = float(input("Veuillez entrer un nombre entier : "))
 
-
-    except ValueError:
-        print("Veuillez entrer un nombre entier !")
-        continue
+for i in range (10):
+   print(f"{x} * {i} = {round(x * i, 1)}")
 
